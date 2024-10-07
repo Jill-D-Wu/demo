@@ -2,18 +2,18 @@ import matplotlib.pyplot as plt
 import numpy as np
 from mpl_toolkits import mplot3d
 
-# #3D
-# x = np.linspace(-5, 5, 100)
-# y = np.linspace(-5, 5, 100)
-# x, y = np.meshgrid(x, y)
-# z = np.sin(x+y)
-# fig = plt.figure()
-# ax = fig.add_subplot(111, projection='3d')
-# ax.plot_surface(x, y, z, cmap='cool')
-# ax.set_xlabel('X axis')
-# ax.set_ylabel('Y axis')
-# ax.set_zlabel('Z axis')
-# plt.show()
+#3D
+x = np.linspace(-5, 5, 100)
+y = np.linspace(-5, 5, 100)
+x, y = np.meshgrid(x, y)
+z = np.sin(x+y)
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.plot_surface(x, y, z, cmap='cool')
+ax.set_xlabel('X axis')
+ax.set_ylabel('Y axis')
+ax.set_zlabel('Z axis')
+plt.show()
 
 #Pie Chart
 labels = ['Piano', 'Visual Arts', 'Strings', 'Comm Arts']
